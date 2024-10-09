@@ -15,4 +15,4 @@ Please explain step by step how to run the code/model and include information ab
 Add a video or animated gif/picture to showcase the code in operation.
   
 # Reference
-Add reference papers, data, or supporting material that has been used, if any.
+[1] Timothy M. Schmidl and Donald C. Cox, "Robust Frequency and Timing Synchronization for OFDM", IEEE Transactions on Communications, Vol. 45, No. 12, December 1997.
