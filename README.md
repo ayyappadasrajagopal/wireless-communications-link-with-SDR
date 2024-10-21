@@ -6,7 +6,22 @@ A wireless communication link with Software Defined Radio (SDR) to transmit and 
 [Project description link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Build%20a%20wireless%20communications%20link%20with%20software%20defined%20radio)
 
 # Project details
-A description of the implementation and the approached adopted.
+
+# Methodology
+    1) A single scalar data (eg: sensor measurement) is taken as the source data and it is converted into bundles of binary bits.
+
+    2) Design over-the-air transmission scheme, including modulation type and optionally, forward error correction.
+
+    3) Model a channel in software, with all the impairments expected in the actual link.
+
+    4) Build corresponding receiver. Receiver will have to accomplish carrier frequency synchronization, timing synchronization, and frame synchronization.
+
+    5) Decode the source bits.
+
+    6) When the link works as expected in software, remove the channel model and transmit and receive using SDR hardware.
+
+    7) Continue from there to optimize your design for selected criteria such as throughput, or reliability, or security, or your own design criterion.
+
 
 # How to run section
 Please explain step by step how to run the code/model and include information about what toolboxes and other resources needed to run it.
